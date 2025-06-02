@@ -16,7 +16,7 @@ let puntaje = 0;
 
 puntaje++;
 
-//decremento en 1 --
+// Decremento en 1 --
 puntaje--;
 
 console.log(puntaje); 
