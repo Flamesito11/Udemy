@@ -27,13 +27,13 @@ resul = carrito.some(function(producto){
     return producto.nombre === 'Teclado';
 })
 
-//.Reduce
+//.Reduce para sumar los precios de un arreglo de objetos
 resul = carrito.reduce(function(total, producto){
     return total + producto.precio;
 }, 0);
 
 
-//Filter
+//Filter    
 resul = carrito.filter(function(producto){
     return producto.precio > 400;
 
