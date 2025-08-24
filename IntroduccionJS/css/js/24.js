@@ -13,19 +13,18 @@
 //     }
 // }
 
-// // const carrito = [
-// //     { nombre: "Monitor HD", precio: 700 },
-// //     { nombre: "Televisor Smart TV", precio: 1000 },
-// //     { nombre: "Tablet", precio: 450 },
-// //     { nombre: "Audifonos", precio: 100 },
-// //     { nombre: "Teclado", precio: 300 },
-// //     { nombre: "Celular", precio: 700 }
-
-// // ];
-
-// // for (let i = 0; i < carrito.length; i++) {
-// //     console.log(carrito[i].nombre);
-// // }
+ const carrito = [
+     { nombre: "Monitor HD", precio: 700 },
+     { nombre: "Televisor Smart TV", precio: 1000 },
+     { nombre: "Tablet", precio: 450 },
+     { nombre: "Audifonos", precio: 100 },
+     { nombre: "Teclado", precio: 300 },
+     { nombre: "Celular", precio: 700 }
+ ];
+ 
+ for (let i = 0; i < carrito.length; i++) {
+     console.log(carrito[i].nombre);
+ }
 
 
 //Ciclo while
