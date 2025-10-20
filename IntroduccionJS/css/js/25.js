@@ -13,4 +13,11 @@ carrito.forEach(producto => console.log(producto.nombre));
  //Map
  const array1 =  carrito.map(producto => console.log(producto.nombre));
 
+    //Filter
+    const resultado = carrito.filter(producto => producto.precio > 400);
+    console.log(resultado);
+
+    //Find
+    const resultado2 = carrito.find(producto => producto.nombre === 'Tablet');
+    console.log(resultado2);
 
